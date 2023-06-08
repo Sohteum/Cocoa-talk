@@ -1,7 +1,13 @@
+img{
+
+
+}
+
+
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   padding: 13px 0px;
   font-size: 17px;
   font-weight: 500;
