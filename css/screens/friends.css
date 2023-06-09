@@ -1,6 +1,5 @@
-
 body>img {
-  color:#000;
+  color: #000;
   background-image: url(../image/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +56,11 @@ body>img {
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  /* background-color: var(--yellow); */
+  background-image: url(/image/bg8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -65,7 +68,19 @@ body>img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
   animation: hideSplashScreen 0.5s ease-in-out forwards;
   animation-delay: 1s;
+}
+
+.fa-paper-plane {
+  position: absolute;
+  font-size: 3em;
+  top: 32%;
+}
+
+.key_name {
+  position: absolute;
+  font-size: 4em;
+  top:20%;
+  font-family: ;
 }
