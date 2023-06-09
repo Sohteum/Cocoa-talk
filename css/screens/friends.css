@@ -56,7 +56,6 @@ body>img {
 }
 
 #splash-screen {
-  /* background-color: var(--yellow); */
   background-image: url(/image/bg8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,15 +71,18 @@ body>img {
   animation-delay: 1s;
 }
 
-.fa-paper-plane {
-  position: absolute;
-  font-size: 3em;
-  top: 32%;
-}
-
 .key_name {
   position: absolute;
-  font-size: 4em;
-  top:20%;
-  font-family: ;
+  font-size: 3.3em;
+  top:34%;
+  border-bottom: 3px double #fff;
+  font-family: 'Courgette', cursive;
+  color:#FFF;
+}
+
+.paper_plane{
+  position: absolute;
+  width: 50%;
+  top:23%;
+  right: 10%;
 }
