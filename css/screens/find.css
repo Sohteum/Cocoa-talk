@@ -1,6 +1,6 @@
 .recommended-friends {
-  padding: 25px 0px;
-  margin: 25px 0px;
+  padding: 20px 0px;
+  margin: 20px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
@@ -11,18 +11,27 @@
 }
 
 .recommended-friends span {
-  margin: 100px 0px;
+  margin: 50px 0px;
   display: block;
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width:400px) {
+  .recommended-friends span {
+    margin: 20px 0px;
+  }
+}
+
+
+
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .open-chat__header span {
@@ -82,6 +91,14 @@
   width: 120px;
   height: 120px;
   border-radius: 10px;
+}
+
+@media screen and (max-width:400px) {
+  .open-post__photo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+  }
 }
 
 .open-post__heart-count {
