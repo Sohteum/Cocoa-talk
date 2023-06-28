@@ -56,7 +56,7 @@ body>img {
 }
 
 #splash-screen {
-  background: linear-gradient( rgb(255, 191, 108), rgb(72, 255, 212));
+  background: linear-gradient(rgb(255, 191, 108), rgb(72, 255, 212));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
